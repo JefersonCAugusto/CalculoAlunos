@@ -21,7 +21,7 @@ Veja o exemplo (os valores que devem ser digitados pelo usuário estão destacad
             HashSet<int> B = new HashSet<int>();
             HashSet<int> C = new HashSet<int>();
             int n1;
-            Console.WriteLine("Bem vindo Joaquim!");
+            Console.WriteLine("Bem vindo profesor!");
             Console.Write("Quantos alunos possui matriculado no curso A: ");
             n1 = int.Parse(Console.ReadLine());
             for (int i = 0; i < n1; i++)
@@ -53,11 +53,12 @@ Veja o exemplo (os valores que devem ser digitados pelo usuário estão destacad
             foreach (int x in A)
             {
                 count++;
-                Console.WriteLine("O {0}º aluno é  o: {1}",count,x);
+                Console.WriteLine("O {0}º aluno é o:{1}",count,x);
             }
+            
+            Console.WriteLine("Professor o sr. possui um total de {0} alunos ",count);
             Console.ReadLine();
 
-            
         }
     }
 }
